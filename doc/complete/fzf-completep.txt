@@ -1,0 +1,216 @@
+complete -F _fzf_path_completion mv
+complete -o default -o nospace -v -F _fzf_var_completion printenv
+complete -o bashdefault -o default -F _fzf_path_completion diff3
+complete -F _fzf_path_completion head
+complete -F _service /etc/init.d/rsync
+complete -F _service /etc/init.d/cryptdisks-early
+complete -F _fzf_path_completion uniq
+complete -F _command else
+complete -F _longopt mkfifo
+complete -o bashdefault -o default -F _fzf_path_completion svn
+complete -F _fzf_path_completion tee
+complete -F _service /etc/init.d/kdump-tools
+complete -F _service /etc/init.d/x11-common
+complete -F _fzf_path_completion grep
+complete -o bashdefault -o default -F _fzf_path_completion vi
+complete -o bashdefault -o default -F _fzf_path_completion bat
+complete -F _longopt objdump
+complete -F _longopt sha1sum
+complete -F _longopt cut
+complete -F _service /etc/init.d/plymouth
+complete -o bashdefault -o default -F _fzf_path_completion file
+complete -o bashdefault -o default -F _fzf_path_completion hx
+complete -o bashdefault -o default -F _fzf_path_completion view
+complete -o bashdefault -o default -F _fzf_path_completion dirname
+complete -o bashdefault -o default -F _fzf_path_completion hg
+complete -F _command nohup
+complete -a -F _fzf_alias_completion unalias
+complete -u groups
+complete -F _longopt texindex
+complete -F _known_hosts telnet
+complete -o bashdefault -o default -F _fzf_complete_ssh ssh
+complete -F _command vsound
+complete -c which
+complete -o bashdefault -o default -F _fzf_path_completion tar
+complete -F _longopt m4
+complete -o default -F _fzf_opts_completion fzf-tmux
+complete -F _fzf_path_completion cp
+complete -F _longopt base64
+complete -F _service /etc/init.d/iscsid
+complete -F _longopt strip
+complete -v readonly
+complete -o bashdefault -o default -F _fzf_path_completion rsync
+complete -o nospace -F _fzf_dir_completion cd
+complete -F _bat _bat
+complete -F _known_hosts showmount
+complete -F _longopt tac
+complete -F _known_hosts fping
+complete -F _longopt env
+complete -c type
+complete -F _known_hosts ssh-installkeys
+complete -o bashdefault -o default -F _fzf_path_completion unzip
+complete -F _longopt expand
+complete -o bashdefault -o default -F _fzf_path_completion git
+complete -F _fzf_path_completion ln
+complete -F _command aoss
+complete -F _service /etc/init.d/ufw
+complete -F _fzf_path_completion ld
+complete -o bashdefault -o default -F _fzf_path_completion gunzip
+complete -F _service /etc/init.d/apparmor
+complete -F _longopt enscript
+complete -F _command xargs
+complete -j -P '"%' -S '"' jobs
+complete -F _service service
+complete -o bashdefault -o default -F _fzf_path_completion emacsclient
+complete -F _fzf_path_completion tail
+complete -F _longopt unexpand
+complete -F _longopt netstat
+complete -F _fzf_path_completion ls
+complete -o bashdefault -o default -F _fzf_path_completion nvim
+complete -o nospace -F _fzf_dir_completion pushd
+complete -o default -o nospace -v -F _fzf_var_completion unset
+complete -F _longopt csplit
+complete -F _known_hosts rsh
+complete -F _command exec
+complete -F _longopt sum
+complete -F _longopt nm
+complete -F _longopt nl
+complete -F _user_at_host ytalk
+complete -o bashdefault -o default -F _fzf_proc_completion kill
+complete -o bashdefault -o default -F _fzf_path_completion java
+complete -F _service /etc/init.d/iperf3
+complete -u sux
+complete -F _longopt paste
+complete -F _service /etc/init.d/grub-common
+complete -F _longopt dir
+complete -F _longopt a2ps
+complete -F _root_command really
+complete -o bashdefault -o default -F _fzf_path_completion open
+complete -F _known_hosts dig
+complete -F _user_at_host talk
+complete -F _service /etc/init.d/keyboard-setup.sh
+complete -F _longopt df
+complete -F _command eval
+complete -o bashdefault -o default -F _fzf_path_completion chown
+complete -F _longopt chroot
+complete -F _command do
+complete -F _service /etc/init.d/dbus
+complete -F _fzf_path_completion du
+complete -F _service /etc/init.d/chrony
+complete -F _fzf_path_completion wc
+complete -F _service /etc/init.d/open-vm-tools
+complete -o bashdefault -o default -F _fzf_path_completion gzip
+complete -o bashdefault -o default -F _fzf_path_completion emacs
+complete -A shopt shopt
+complete -o bashdefault -o default -F _fzf_path_completion javac
+complete -F _fzf_path_completion ftp
+complete -F _longopt uname
+complete -F _known_hosts rlogin
+complete -o default -F _fzf_opts_completion fzf
+complete -F _longopt sha384sum
+complete -F _fzf_path_completion rm
+complete -F _service /etc/init.d/cryptdisks
+complete -F _root_command gksudo
+complete -F _command nice
+complete -F _longopt tr
+complete -F _longopt sha256sum
+complete -F _root_command gksu
+complete -F _service /etc/init.d/unattended-upgrades
+complete -o bashdefault -o default -F _fzf_path_completion basename
+complete -F _longopt ptx
+complete -F _known_hosts traceroute
+complete -o bashdefault -o default -F _fzf_path_completion bzip2
+complete -j -P '"%' -S '"' fg
+complete -F _longopt who
+complete -F _complete compgen
+complete -F _complete complete
+complete -o bashdefault -o default -F _fzf_path_completion mvim
+complete -F _fzf_path_completion less
+complete -F _longopt mknod
+complete -F _command padsp
+complete -F _service /etc/init.d/console-setup.sh
+complete -F _service /etc/init.d/open-iscsi
+complete -F _longopt bison
+complete -F _longopt od
+complete -o bashdefault -o default -F _fzf_path_completion bunzip2
+complete -F _service /etc/init.d/kmod
+complete -F _completion_loader -D
+complete -o default -o nospace -v -F _fzf_var_completion export
+complete -o bashdefault -o default -F _fzf_path_completion gvim
+complete -o bashdefault -o default -F _fzf_path_completion find
+complete -F _longopt split
+complete -F _service /etc/init.d/screen-cleanup
+complete -o bashdefault -o default -F _fzf_path_completion zip
+complete -F _longopt fold
+complete -F _known_hosts mtr
+complete -o bashdefault -o default -F _fzf_path_completion scp
+complete -o bashdefault -o default -F _fzf_path_completion ruby
+complete -o bashdefault -o default -F _fzf_path_completion chmod
+complete -o bashdefault -o default -F _fzf_path_completion code
+complete -F _user_at_host finger
+complete -F _service /etc/init.d/apport
+complete -o bashdefault -o default -F _fzf_path_completion perl
+complete -F _root_command kdesudo
+complete -o filenames -F __zoxide_z_complete z
+complete -u w
+complete -F _longopt irb
+complete -o bashdefault -o default -F _fzf_path_completion ex
+complete -F _command tsocks
+complete -F _fzf_path_completion diff
+complete -F _longopt shar
+complete -F _longopt vdir
+complete -F _service /etc/init.d/plymouth-log
+complete -j -P '"%' -S '"' disown
+complete -F _longopt bash
+complete -F _service /etc/init.d/procps
+complete -F _longopt md5sum
+complete -o bashdefault -o default -F _fzf_path_completion source
+complete -o bashdefault -o default -F _fzf_path_completion curl
+complete -A stopped -P '"%' -S '"' bg
+complete -F _longopt objcopy
+complete -F _longopt bc
+complete -F _service /etc/init.d/sysstat
+complete -b builtin
+complete -F _longopt shasum
+complete -F _command ltrace
+complete -o bashdefault -o default -F _fzf_path_completion gcc
+complete -o bashdefault -o default -F _fzf_path_completion xdg-open
+complete -F _service /etc/init.d/ssh
+complete -F _known_hosts traceroute6
+complete -o bashdefault -o default -F _fzf_path_completion jar
+complete -F _longopt date
+complete -F _fzf_path_completion cat
+complete -F _longopt readelf
+complete -F _fzf_path_completion awk
+complete -F _longopt sha512sum
+complete -F _longopt seq
+complete -F _longopt mkdir
+complete -F _longopt sha224sum
+complete -A helptopic help
+complete -F _minimal ''
+complete -o bashdefault -o default -F _fzf_path_completion sftp
+complete -A setopt set
+complete -F _fzf_path_completion sort
+complete -F _longopt pr
+complete -F _longopt colordiff
+complete -o bashdefault -o default -F _fzf_path_completion patch
+complete -o bashdefault -o default -F _fzf_path_completion g++
+complete -o bashdefault -o default -F _fzf_path_completion python
+complete -F _longopt fmt
+complete -F _fzf_path_completion sed
+complete -F _longopt gperf
+complete -F _command time
+complete -F _root_command fakeroot
+complete -u slay
+complete -F _longopt grub
+complete -F _service /etc/init.d/cron
+complete -F _fzf_dir_completion rmdir
+complete -F _service /etc/init.d/uuidd
+complete -o bashdefault -o default -F _fzf_path_completion vim
+complete -o bashdefault -o default -F _fzf_path_completion more
+complete -F _longopt units
+complete -F _longopt touch
+complete -F _longopt ldd
+complete -F _command then
+complete -F _command command
+complete -F _known_hosts fping6
